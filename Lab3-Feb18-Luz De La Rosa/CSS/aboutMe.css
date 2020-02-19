@@ -1,0 +1,81 @@
+#wrapper {
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    width: 1400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    background-color: salmon;
+}
+#aside {
+    width: 360px;
+    height: 900px;
+    float: left;
+    background-color:rgb(236, 194, 179);
+    padding-top: 50px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+#main {
+    width: 1000px;
+    height: 950px;
+    background-color:lightgray;
+    float: left;
+    /* color: white; */
+}
+#main p {
+    padding: 20px 0px 0px 40px;
+}
+#hobbies {
+    text-align: center;
+}
+#footer {
+    width: 1400px;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+    float: left;
+    background-color: tomato;
+}
+body {
+    font-family: serif;
+    font-size: 24px;
+    line-height: 1.4;
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: yellow;
+    font-size: 80px;
+
+}
+h2, h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    text-align: center;
+    color: navy;
+    
+}
+h3 {
+    text-align: justify;
+}
+.border {
+    border-radius: 20px;
+}
+a {
+    font-size: 28px;
+    line-height: 1.8;
+}
+a:hover {
+    background-color:tomato;
+    color: white;
+}
+#copyright {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}

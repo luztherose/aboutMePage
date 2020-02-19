@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+    <style>
+        
+        .firstRow {
+            background-color:green ;
+        }
+        .blue td {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Here is our office time table</h1>
+    <!-- Tables are made of rows and columns. tr is for rows and td is for columns. To put border to a table, we use the property border inside the table opening tag. -->
+    <table border="2px">
+        <tr class="firstRow">
+            <th>Day</th>
+            <th>Morning</th>
+            <th>Afternoon</th>
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>9-11</td>
+            <td>1-3</td>
+        </tr>
+        <tr class="blue">
+            <td>Tue</td>
+            <td>9-11</td>
+            <td>1-3</td>
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td>8-10</td>
+            <td>1-3</td>
+        </tr>
+        <tr class="blue">
+            <td>Thr</td>
+            <td>8-10</td>
+            <td>1-3</td>
+        </tr>
+        <tr>
+            <td>Fri</td>
+            <td>8-11</td>
+            <td>closed</td>
+        </tr>
+        <tr class="blue">
+            <td>Sat</td>
+            <td>8-11</td>
+            <td>closed</td>
+        </tr>
+        <tr>
+            <td>Sun</td>
+            <td>closed</td>
+            <td>closed</td>
+        </tr>
+    </table>
+</body>
+</html>

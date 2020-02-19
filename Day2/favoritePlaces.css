@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+    font-size: 20px;
+}
+li {
+    font-size: 30px;
+    padding-bottom:15px;
+}
+h1 {
+    font-size: 50px;
+    background-color: salmon;
+    border-radius: 100px;
+    text-align: center;
+}
+img {
+    margin:0 50px 20px 0;
+    border-radius: 15px;
+}

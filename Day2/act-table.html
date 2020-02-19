@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+    body {
+        font-size: 25px;
+        background-color: lightpink;
+    }
+    table {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        right: 40%;
+        top: 50px;
+
+
+    }
+    table, caption {
+        background-color: darkgray;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    caption {
+        font-family: cursive;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    </style>
+</head>
+<body>
+    <table border="2px">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2" class="bold">Average</td>
+            <td rowspan="2" class="bold">Red Eyes</td>
+            <tr>
+                <td class="bold">Height</td>
+                <td class="bold">Weight</td>
+            </tr>
+        </tr>
+        <tr>
+            <td class="bold">Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td class="bold">Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+
+    </table>
+</body>
+</html>
